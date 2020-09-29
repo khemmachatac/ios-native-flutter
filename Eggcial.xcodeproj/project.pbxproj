@@ -3,29 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9804205F590F38F1B1C849B5 /* Pods_Eggcial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D7F55CD8ECCCFA52650875 /* Pods_Eggcial.framework */; };
 		B771D48A24C042BE008ED05C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B771D48924C042BE008ED05C /* AppDelegate.swift */; };
 		B771D48C24C042BE008ED05C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B771D48B24C042BE008ED05C /* SceneDelegate.swift */; };
-		B771D48E24C042BE008ED05C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B771D48D24C042BE008ED05C /* FirstViewController.swift */; };
-		B771D49024C042BE008ED05C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B771D48F24C042BE008ED05C /* SecondViewController.swift */; };
+		B771D48E24C042BE008ED05C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B771D48D24C042BE008ED05C /* HomeViewController.swift */; };
 		B771D49324C042BE008ED05C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B771D49124C042BE008ED05C /* Main.storyboard */; };
 		B771D49524C042C0008ED05C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B771D49424C042C0008ED05C /* Assets.xcassets */; };
 		B771D49824C042C0008ED05C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B771D49624C042C0008ED05C /* LaunchScreen.storyboard */; };
+		B771D4A324C04B89008ED05C /* MainBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B771D4A224C04B89008ED05C /* MainBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79D7F55CD8ECCCFA52650875 /* Pods_Eggcial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eggcial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B771D48624C042BE008ED05C /* Eggcial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eggcial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B771D48924C042BE008ED05C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B771D48B24C042BE008ED05C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B771D48D24C042BE008ED05C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		B771D48F24C042BE008ED05C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B771D48D24C042BE008ED05C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B771D49224C042BE008ED05C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B771D49424C042C0008ED05C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B771D49724C042C0008ED05C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B771D49924C042C0008ED05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B771D4A224C04B89008ED05C /* MainBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBarViewController.swift; sourceTree = "<group>"; };
+		C9B519A23C2D40C5220E0AA8 /* Pods-Eggcial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eggcial.release.xcconfig"; path = "Target Support Files/Pods-Eggcial/Pods-Eggcial.release.xcconfig"; sourceTree = "<group>"; };
+		F16702CF3C16F4B913E20D26 /* Pods-Eggcial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eggcial.debug.xcconfig"; path = "Target Support Files/Pods-Eggcial/Pods-Eggcial.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9804205F590F38F1B1C849B5 /* Pods_Eggcial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D8FC299CEFF86CADA97E287 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79D7F55CD8ECCCFA52650875 /* Pods_Eggcial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		192E92CF1DD42B1A74EC2BA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F16702CF3C16F4B913E20D26 /* Pods-Eggcial.debug.xcconfig */,
+				C9B519A23C2D40C5220E0AA8 /* Pods-Eggcial.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B771D47D24C042BE008ED05C = {
 			isa = PBXGroup;
 			children = (
 				B771D48824C042BE008ED05C /* Eggcial */,
 				B771D48724C042BE008ED05C /* Products */,
+				192E92CF1DD42B1A74EC2BA6 /* Pods */,
+				0D8FC299CEFF86CADA97E287 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +82,24 @@
 		B771D48824C042BE008ED05C /* Eggcial */ = {
 			isa = PBXGroup;
 			children = (
+				B771D49F24C0432E008ED05C /* pages */,
+				B771D4A224C04B89008ED05C /* MainBarViewController.swift */,
 				B771D48924C042BE008ED05C /* AppDelegate.swift */,
 				B771D48B24C042BE008ED05C /* SceneDelegate.swift */,
-				B771D48D24C042BE008ED05C /* FirstViewController.swift */,
-				B771D48F24C042BE008ED05C /* SecondViewController.swift */,
 				B771D49124C042BE008ED05C /* Main.storyboard */,
 				B771D49424C042C0008ED05C /* Assets.xcassets */,
 				B771D49624C042C0008ED05C /* LaunchScreen.storyboard */,
 				B771D49924C042C0008ED05C /* Info.plist */,
 			);
 			path = Eggcial;
+			sourceTree = "<group>";
+		};
+		B771D49F24C0432E008ED05C /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				B771D48D24C042BE008ED05C /* HomeViewController.swift */,
+			);
+			path = pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +109,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B771D49C24C042C0008ED05C /* Build configuration list for PBXNativeTarget "Eggcial" */;
 			buildPhases = (
+				D35206E78139B1CFD9493C4A /* [CP] Check Pods Manifest.lock */,
+				8616D82BF67180495BACF8D1 /* [CP-User] Run Flutter Build Script */,
 				B771D48224C042BE008ED05C /* Sources */,
 				B771D48324C042BE008ED05C /* Frameworks */,
 				B771D48424C042BE008ED05C /* Resources */,
+				F2611C87AD3C4B1BA2C0F33D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,13 +171,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8616D82BF67180495BACF8D1 /* [CP-User] Run Flutter Build Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Users/khemmachatthongkhum/AndroidStudioProjects/Eggcial/eggcial_flutter/.metadata",
+				"${SRCROOT}/../../../AndroidStudioProjects/Eggcial/eggcial_flutter/.ios/Flutter/App.framework/App",
+				"${SRCROOT}/../../../AndroidStudioProjects/Eggcial/eggcial_flutter/.ios/Flutter/engine/Flutter.framework/Flutter",
+				"${SRCROOT}/../../../AndroidStudioProjects/Eggcial/eggcial_flutter/.ios/Flutter/flutter_export_environment.sh",
+			);
+			name = "[CP-User] Run Flutter Build Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../../../AndroidStudioProjects/Eggcial/eggcial_flutter/.ios/Flutter/flutter_export_environment.sh\"\n\"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		D35206E78139B1CFD9493C4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eggcial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2611C87AD3C4B1BA2C0F33D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eggcial/Pods-Eggcial-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eggcial/Pods-Eggcial-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eggcial/Pods-Eggcial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B771D48224C042BE008ED05C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B771D49024C042BE008ED05C /* SecondViewController.swift in Sources */,
-				B771D48E24C042BE008ED05C /* FirstViewController.swift in Sources */,
+				B771D48E24C042BE008ED05C /* HomeViewController.swift in Sources */,
+				B771D4A324C04B89008ED05C /* MainBarViewController.swift in Sources */,
 				B771D48A24C042BE008ED05C /* AppDelegate.swift in Sources */,
 				B771D48C24C042BE008ED05C /* SceneDelegate.swift in Sources */,
 			);
@@ -286,6 +379,7 @@
 		};
 		B771D49D24C042C0008ED05C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F16702CF3C16F4B913E20D26 /* Pods-Eggcial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,7 +389,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.khemmachat.eggcial.Eggcial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khemmachat.eggcial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,6 +398,7 @@
 		};
 		B771D49E24C042C0008ED05C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B519A23C2D40C5220E0AA8 /* Pods-Eggcial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -313,7 +408,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.khemmachat.eggcial.Eggcial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khemmachat.eggcial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  FirstViewController.swift
 //  Eggcial
 //
 //  Created by Khemmachat Thongkhum on 16/7/2563 BE.
@@ -7,14 +7,13 @@
 //
 
 import UIKit
+import MaterialComponents.MaterialNavigationBar
 
-class SecondViewController: UIViewController {
-
+class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        navigationController?.navigationBar.barStyle = .black
     }
-
-
 }
 

@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-Eggcial/Pods-Eggcial-frameworks.sh
+${PODS_ROOT}/../../../../AndroidStudioProjects/Eggcial/eggcial_flutter/.ios/Flutter/engine/Flutter.framework
+${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework
+${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework
+${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework
+${PODS_ROOT}/../../../../AndroidStudioProjects/Eggcial/eggcial_flutter/.ios/Flutter/App.framework
